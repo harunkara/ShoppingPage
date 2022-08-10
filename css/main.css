@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    background-color: #2C2C2C;
+}
+.figmaLogo, .commentLogo{
+    width: 5vh;
+    color: white;
+}
+img.commentLogo div:hover{ 
+	background-color: white;
+}
+.topBar__middle{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.topBarMiddleText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+}
+.loginButton{
+    background-color: #1bc47d;     
+    border-color: transparent;
+    background-clip: border-box;
+}
+.avatar{
+    border-radius: 16rem;
+}
+.avatarImg{
+    border-radius: 16rem; 
+    height: 4vh;
+}
+.topBar__right{
+    display: flex;
+}
+.mainImage{
+
+}
+.mainCol{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: list-item;
+}
+@media screen and (min-width:1024px) {
+    .main {
+        display: flex;
+    }
+}
+.mainImgText{
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.center {
+    text-align: center;
+}
+.gap {
+    margin-bottom: 50px;
+}
+.carousel.scale .left-arrow,
+.carousel.scale .right-arrow {
+  top: 30%;
+  position: absolute;
+}
+.carousel.scale .left-arrow {
+  left: -10px;
+}
+.carousel.scale .right-arrow {
+  right: -10px;
+}
+.carousel.scale .active .row > div:nth-child(1) {
+  -webkit-animation: scaleUp 200ms linear 0 both;
+  -moz-animation: scaleUp 200ms linear 0 both;
+  -ms-animation: scaleUp 200ms linear 0 both;
+  -o-animation: scaleUp 200ms linear 0 both;
+  animation: scaleUp 200ms linear 0 both;
+}
+.carousel.scale .active .row > div:nth-child(2) {
+  -webkit-animation: scaleUp 200ms linear 100ms both;
+  -moz-animation: scaleUp 200ms linear 100ms both;
+  -ms-animation: scaleUp 200ms linear 100ms both;
+  -o-animation: scaleUp 200ms linear 100ms both;
+  animation: scaleUp 200ms linear 100ms both;
+}
+.carousel.scale .active .row > div:nth-child(3) {
+  -webkit-animation: scaleUp 200ms linear 200ms both;
+  -moz-animation: scaleUp 200ms linear 200ms both;
+  -ms-animation: scaleUp 200ms linear 200ms both;
+  -o-animation: scaleUp 200ms linear 200ms both;
+  animation: scaleUp 200ms linear 200ms both;
+}
+.carousel.scale .active .row > div:nth-child(4) {
+  -webkit-animation: scaleUp 200ms linear 400ms both;
+  -moz-animation: scaleUp 200ms linear 400ms both;
+  -ms-animation: scaleUp 200ms linear 400ms both;
+  -o-animation: scaleUp 200ms linear 400ms both;
+  animation: scaleUp 200ms linear 400ms both;
+}
+#team-scroller .designation {
+    margin-top: 10px;
+    display: block;
+}
+.centerArrows{
+    display: flex;
+    justify-content: space-evenly;
+}
+.member {
+    margin: 0 50px;
+    text-align: center;
+  }
+.center{
+    text-align: center;
+}
